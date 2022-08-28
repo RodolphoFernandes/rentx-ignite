@@ -27,9 +27,9 @@ export default function App() {
     Archivo_500Medium,
     Archivo_600SemiBold});
 
-  if(!fontsLoaded){
-    return <AppLoading />
-  }
+  // if(!fontsLoaded){
+  //   return <AppLoading />
+  // }
 
   return (
     <ThemeProvider theme={theme}>

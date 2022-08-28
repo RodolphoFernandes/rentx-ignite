@@ -45,7 +45,7 @@ export function Scheduling(){
 
     function handleGoBack(){
         navigation.goBack();
-      }
+    }
 
     function handleConfirmRental(){
 

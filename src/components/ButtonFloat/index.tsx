@@ -3,12 +3,14 @@ import { GestureHandlerRootView, RectButtonProps } from 'react-native-gesture-ha
 import { useTheme } from 'styled-components';
 import { Ionicons } from '@expo/vector-icons';
 
+
 import {
  Container
 } from './styles';
 
 export function ButtonFloat({...rest}: RectButtonProps){
     const theme = useTheme();
+
 
     return (
     <GestureHandlerRootView>  
